@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+    <class name="com.Student" table="StudentData">
+        	<id name="studentId">
+        	    <generator class="assigned"></generator>
+        	</id>
+        	<property name="studentName"></property>
+        	<property name="fees"></property>
+    </class>
+</hibernate-mapping>
